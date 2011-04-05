@@ -1,0 +1,18 @@
+Name: libGHF 
+Description:
+   A General Purpose Binary Modification Library
+License: GPL License 
+  <http://opensource.org/licenses/gpl-license.php>
+  Copyright 2006 *nixCoders team
+
+Compilation:
+  It's simple: 
+  For production build 
+     $ make libghf.a RELEASE=1
+  For debug build
+     $ make libghf.a
+
+  Doing 'make' alone builds a test library as well.
+
+Todo:
+  - X86_64 support :p
